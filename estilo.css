@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Criar variáveis de cores */
 :root{
     --preta:  #040301;
@@ -7,6 +10,11 @@
 }
 body{
     margin: 0px;
+    font-family: 'Saira';
+}
+
+h1{
+    font-family: 'Abhaya Libre';
 }
 #menu_topo{
     background-color: var(--preta);  /*Cor de fundo*/
@@ -27,4 +35,118 @@ body{
     height: 90px; /*altura do objeto*/
 }
 
+#banner{
+    background-image: url('imagens/bg.png');
+    background-size: cover;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+#formulario{
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 1px solid var(--dourado);
+    width: 350px;
+    color: var(--branca);
+    padding: 25px;
+}
+#formulario h1{
+    color: var(--dourado);
+}
+.caixa_texto{
+    background-color: gray;
+    border: none; /* remover a borda */
+    color: var(--preta);
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn_inscrever{
+    background-color: var(--dourado);
+    padding: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#secao1{
+    background-color: var(--preta);
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cartoes{
+    border: 1px solid var(--dourado);
+    color: var(--branca);
+    width: 350px;
+    min-height: 320px;
+    padding: 20px;
+}
+.cartoes img{
+    background-color: var(--dourado);
+    padding: 8px;
+    margin-top: -45px;
+    display: block;
+}
+.cartoes h1{
+    color: var(--dourado);
+}
+
+#secao2{
+    background-color: var(--cinza_escuro);
+    border: 1px solid var(--dourado);
+    display: flex;
+    color: var(--branca);
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#foto2{
+    height: 600px;
+}
+#conteudo_secao2{
+    /* border: 1px solid red; */
+    width: 30%;
+}
+#conteudo_secao2 h1{
+    color: var(--dourado);
+}
+
+#secao3{
+    background-color: var(--dourado);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+}
+#secao3 h1{
+    text-transform: uppercase; /*letras em maiúsculo*/
+}
+
+.caixa_texto2{
+    background-color: #d6b57c;
+    padding: 20px;
+    border: none; /* remover as bordas*/
+    width: 300px;
+}
+#btn_enviar{
+    background-color: var(--preta);
+    color: var(--dourado);
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 800;
+}
+#formulario2{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
