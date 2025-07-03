@@ -1,0 +1,30 @@
+/* Criar variáveis de cores */
+:root{
+    --preta:  #040301;
+    --branca: #FFFFFF;
+    --dourado: #9C8050;
+    --cinza_escuro: #0D0D0D;
+}
+body{
+    margin: 0px;
+}
+#menu_topo{
+    background-color: var(--preta);  /*Cor de fundo*/
+    display: flex; /*Componentes flexíveis lado a lado*/
+    justify-content: space-between;  /*Dividir o espaçamento entre eles*/
+    align-items: center; /*Alinhar no centro*/
+    padding-left: 70px; /*Distância esquerda*/
+    padding-right: 70px; /*Distância direita*/
+    height: 120px; /*Altura*/
+}
+#btn_area{
+    background-color: var(--dourado);
+    color: var(--branca); /*Cor do texto*/
+    max-height: fit-content; /*altura máxima, ajustar pelo conteúdo*/
+    padding: 20px; /*distância interna*/
+}
+#logomarca{
+    height: 90px; /*altura do objeto*/
+}
+
+
